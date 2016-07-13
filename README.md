@@ -41,6 +41,7 @@ I wrote this simple script to do this for me. Although right now it is a minimal
 # To-do:
 - Implement tests
  - Test with Gmail account since I only have tested with Zoho
+- Put environmental variables in a separate file?
 - Implement recurring emails on time intervals (days, weeks, months)
 - Implement ability to send to more than one contact at a time.
 - Implement file attachment
