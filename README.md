@@ -8,6 +8,16 @@ A Python script to send emails through the comfort of the command line
 - [Keith Alpichi](https://keithalpichi.github.io)
 - [@keithalpichi](https://twitter.com/keithalpichi)
 
+## Motivation behind PyMail Sender
+
+I have clients I like to keep in touch with. So I send an email to them about every 3-6 months. I hated to have to login each time, setup an email, add the contact, create the email subject and body text, and so on.
+
+I wrote this simple script to do this for me. Although right now it is a minimal email sender I'd like to implement it where it automates email sending like so:
+
+1. When 3 or 6 months pass (I set this interval myself) for a specific client the program notifies me (through email, Slack, etc.)
+2. It asks to input an email subject line and body for the email the program is about to send. 
+3. I hit send and voila!
+
 ## Key notes:
 - Written in Python3 and utilizes Python's built-in `smtplib` and email modules.
 - Program reads contact's information from a JSON file (`contacts.json`).
