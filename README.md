@@ -29,7 +29,7 @@ I wrote this simple script to do this for me. Although right now it is a minimal
 - In `script.py` set the following in the file directly or as environment variables (like so `export VARIABLE_NAME='value_here'`):
  - `MY_NAME`- to your name. This will show up at the end of the email (i.e., 'Sincerely, Bob')
  - `FROM_ADDR`- to the address you are sending from
- - `MY_PASSWORD`- to your email password. This should correspond to `FROM_ADDR`
+ - `MY_PASSWORD`- to your email password. This should correspond to the email set at `FROM_ADDR`
  - `SMTP_SERVER_NAME`- to the smtp server name. If you're using Google set this to `smtp.gmail.com`. **Note- You must set [Gmail's "access for less secure apps"](https://support.google.com/accounts/answer/6010255?hl=en) to ON in order for this to work. **
  - `SMTP_PORT`- to the smtp port number. If Google, set to 587 or 465.
  - `DEFAULT_SUBJECT`- to what ever you like or keep the default one provided
